@@ -1,0 +1,104 @@
+.as{
+    font-size:50px ;
+    font-family:'Rozha One', serif;
+}
+
+.ou{
+    font-size:30px ;
+    font-family:'Rozha One', serif;
+}
+
+.psa{
+    font-size:20px;
+    font-family:'Ubuntu', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+.col1 {
+	width:85%;
+	margin-left: 20%;
+}
+
+
+.fx {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.mg {
+    max-width: 100%;
+}     
+
+.col1 {
+	width: 100%;
+	height: 100%;
+}
+
+.col1.img {
+	text-align: center;
+}
+
+.div {
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.col2 {
+	width: 45%;
+}
+
+body {
+	background-image: url(../images/abstract-dark-blue-polygonal-background_1035-9700.jpg);
+}
+
+@media only screen and (max-width:480px) {
+	.clear div: nth-child(even),
+	.clear div:nth-child(odd)
+}
+
+h1 {
+	font-size: 250%;
+	color:orange
+}
+h2{
+	font-size: 150%;
+	color:darkorange;
+}
+p{
+	font-size: 100%;
+	color:orangered
+}
+@media only screen and (min-width:481px) and (max-width:1024px) {
+
+	.clear div:nth-child(1),
+	.clear div:nth-child(2) {
+		width: 50%;
+	}
+	.clear div:nth-child(3),
+	.clear div:nth-child(4),
+	.clear div:nth-child(5) {
+		width: 33.3%;
+	}
+
+	.clear div:nth-child(6),
+	.clear div:nth-child(7) {
+		width: 50%;
+	}
+
+	.clear div:nth-child(8),
+	.clear div:nth-child(9),
+	.clear div:nth-child(10) {
+		width: 33.3%;
+	}
+
+}
